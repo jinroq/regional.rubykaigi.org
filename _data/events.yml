@@ -429,8 +429,8 @@
   end_on: 2020-02-11
 - name: matsue10
   title: "松江Ruby会議10"
-  start_on: 2020-06-06
-  end_on: 2020-06-06
+  start_on: 2023-09-16
+  end_on: 2023-09-16
   external_url: http://matsue.rubyist.net/matrk10/
 - name: tochigi09
   title: "とちぎRuby会議09"
@@ -453,3 +453,17 @@
   end_on: 2023-03-04
   external_url: https://k-ruby.com/kagoshima-rubykaigi02/
   report_url: https://magazine.rubyist.net/articles/0062/0062-KagoshimaRubyKaigi02Report.html
+- name: tokyu14
+  title: "TokyuRuby会議14"
+  start_on: 2023-06-29
+  end_on: 2023-06-29
+  external_url: https://tokyurubykaigi.github.io/tokyu14/
+- name: osaka03
+  title: "大阪Ruby会議03"
+  start_on: 2023-09-09
+  end_on: 2023-09-09
+  external_url: https://rubykansai.github.io/osaka03/
+- name: oedo10
+  title: "大江戸Ruby会議10"
+  start_on: 2023-10-15
+  end_on: 2023-10-15
