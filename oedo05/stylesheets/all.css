@@ -1,0 +1,334 @@
+body{
+background-image: url(../images/furoshiki_bg.jpg);
+margin: 0;
+}
+
+footer{
+background-image: url(../images/furoshiki_bg.jpg);
+margin: 0;
+}
+
+
+/* ==================================================== */
+/* layout */
+
+div.container{
+padding:0;
+margin:0;
+width:100%;
+}
+
+#topmenu{
+position: fixed;
+top: 0;left: 0;
+z-index: 4;
+width: 100%;
+height: 4em;
+background: #C00334;
+padding-top: 0.5em;
+padding-left: 10%;
+}
+
+#article{
+margin: 0;
+margin-top:2em;
+font-size: 14pt;
+font-family: "MS P明朝","ヒラギノ明朝 Pro", serif; 
+}
+
+/* ==================================================== */
+/* navigation  */
+
+div.nav{
+display: inline-block;
+}
+
+li{
+display: inline-block;
+font-size: 12pt;
+}
+
+/* ==================================================== */
+/* top */
+
+div.title{
+width: 200px;
+margin: 0 auto;
+padding-top: 2em;
+}
+
+div.furoshiki{
+width: 350px;
+height: 244px;
+background-image: url(../images/furoshiki.png);
+margin: 0 auto;
+margin-bottom: 2em;
+}
+
+div.center{
+width: 100%;
+text-align: center;
+}
+/* ==================================================== */
+/* about */
+
+div.about_top{
+background: url(../images/furoshiki_bg_line.png);
+z-index: 2;
+position: absolute;
+height: 30px;
+width: 100%;
+}
+
+div.about{
+background: url(../images/background_blue.png);
+z-index: 1;
+position: relative;
+margin: 0 auto;
+padding: 4em 20%;
+color: #222;
+}
+
+div.about_bottom{
+background: url(../images/background_pink_line_a.png);
+z-index: 3;
+position: absolute;
+margin: -20px auto;
+height: 20px;
+width: 100%;
+}
+
+div.about p{
+color: #191970;}
+
+div.about strong{
+padding-left: 2em;
+color: #222;
+}
+
+
+/* ==================================================== */
+/* speaker */
+
+div.speaker{
+background: url(../images/background_pink.jpg);
+padding: 2em 20%;
+color: #222;
+}
+div.speaker h3{
+background: #c97586;
+margin: 1em auto;
+width: 80%;
+border-radius: 12px;
+border: #a22041 solid 1px;
+}
+div.speaker li{
+margin: 0 10px;
+font-weight: 700;
+text-align: center;
+vertical-align: top;
+}
+li.keynote {
+width: 40%;
+padding-bottom: 2em; 
+}
+li.ninja {
+padding-bottom: 1em; 
+}
+li.ninja img{
+width: 80%;
+height: 80%;
+}
+li.lt {
+padding-bottom: 1em; 
+}
+li.lt img{
+width: 70%;
+height: 70%;
+}
+div.speaker img{
+margin-bottom: 10px;
+}
+
+/* ==================================================== */
+/* timetable */
+
+div.timetable_top{
+background: url(../images/background_pink_line.png);
+z-index: 2;
+position: absolute;
+height: 20px;
+width: 100%;
+}
+
+
+div.timetable{
+background: url(../images/background_green.png);
+padding: 4em 20%;
+position: relative;
+color: #222;
+}
+
+div.timetable_bottom{
+background: url(../images/background_yellow_line_a.png);
+z-index: 3;
+position: absolute;
+margin: -20px auto;
+height: 20px;
+width: 100%;
+}
+
+table.timetable{
+margin: 0 auto;
+width: 90%;
+border-collapse: separate;
+border-spacing: 0 0.2em;
+}
+
+td.time{
+width: 4em;
+padding: 0.5em 1em;
+vertical-align: top;
+}
+
+td.presentation{
+padding: 0.5em 1em;
+vertical-align: top;
+}
+
+tr.kareiro{
+background: #fff1cf;
+}
+
+tr.seiji{
+background: #d6e9ca;
+}
+
+p.speakername{
+color: #2c4f54;
+font-size: 13pt;
+margin: 0.5em 1.5em;
+}
+
+a.socialicon{
+font-size: 13pt;
+padding: 0 0 0 0.4em;
+}
+a.socialicon:hover {
+color: #20b2aa; 
+}
+a.slide{
+border-radius: 7px;
+background: #337ab7;
+color: white;
+font: 9pt normal;
+letter-spacing: -1px;
+margin: 0;
+padding: 0.1em 0.5em;
+}
+a.slide:hover {
+background: #20b2aa;
+color: white;
+text-decoration: none;
+}
+
+/* ==================================================== */
+/* access */
+
+div.access{
+background: url(../images/background_yellow.jpg);
+padding: 2em 20%;
+color: #222;
+font-size: 13pt;
+}
+
+p.address{
+padding: 0 2em;
+font-size: 14pt;
+color: #8b0000;
+}
+ul.traffic{
+list-style-type: square;
+margin-left: 3em;
+}
+ul.traffic li{
+display: list-item;
+padding: 0.5em 0;
+line-height: 1.5em;
+}
+ul.traffic strong{
+text-decoration: underline;
+}
+/* ==================================================== */
+/* 参加登録 */
+
+
+div.register_top{
+background: url(../images/background_yellow_line.png);
+z-index: 2;
+position: absolute;
+height: 20px;
+width: 100%;
+}
+
+div.register{
+background: url(../images/background_blue.png);
+padding: 2em 20%;
+color: #222;
+}
+
+div.regist_buttom{
+background-color: #4496d3;
+width: 200px;
+height: 200px;
+display: inline-block;
+border-radius: 25px;
+margin: 1em 30px;
+}
+div.regist_buttom:hover{
+background-color: #1e50a2;
+}
+.notice{
+font-size: 12pt;
+padding-left: 2em;
+}
+div.register_bottom{
+background: url(../images/furoshiki_bg_line_a.png);
+z-index: 3;
+position: absolute;
+margin: -20px auto;
+height: 20px;
+width: 100%;
+}
+
+
+/* ==================================================== */
+/* sponsors */
+
+div.sponsors{
+padding: 2em 20%;
+color: #222;
+}
+
+div.logo{
+margin: 30px auto;
+width: 60%;
+}
+/* ==================================================== */
+/* channels */
+
+div.channels{
+background: #C00334;
+margin: 0;
+padding: 1.5em 10em;
+text-align:right;
+}
+
+
+a.channelsicon{
+font-size: 30px;
+color: white;
+padding: 0.3em;
+}
+
+
