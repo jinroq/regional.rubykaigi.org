@@ -479,8 +479,8 @@
   end_on: 2024-09-07
 - name: tokyu15
   title: "TokyuRuby会議15"
-  start_on: 2023-09-29
-  end_on: 2023-09-29
+  start_on: 2024-09-29
+  end_on: 2024-09-29
   external_url: https://tokyurubykaigi.github.io/tokyu15/
 - name: matsue11
   title: "松江Ruby会議11"
